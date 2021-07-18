@@ -1,0 +1,54 @@
+body,
+html {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+table {
+    align-self: center;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+}
+
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.jumbotron {
+    background-color: whitesmoke;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: inherit;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: rgb(249, 249, 249);
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}

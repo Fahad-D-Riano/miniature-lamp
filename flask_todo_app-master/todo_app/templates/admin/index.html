@@ -1,0 +1,30 @@
+{% extends '/admin/master.html' %}
+
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/admin_style.css') }}">
+{% endblock %}
+
+<!-- 
+{#
+{% block access_control %}
+    <a class="btn btn-primary" href="/logout" style="float: right; margin-top: 10px;">Logout</a>
+{% endblock %}
+#}
+-->
+{% block body %}
+<main>
+    <div class="jumbotron">
+        <h1>SIMPLE TODO APP</h1>
+        <p>This is a simple web app todo list web app created using flask with login system using flask-login and
+            admin portal done using flask-admin this project is done by
+            <a href="https://suraj-hm.github.io">Suraj</a></p>
+        <p><a class="btn btn-primary btn-lg" href="https://github.com/suraj-hm">To know more</a></p>
+    </div>
+</main>
+<footer class="footer" style="margin-bottom: 0px;">
+    <div class="container text-center">
+        <span class="text-muted">For more info contact : <a class="stretched-link" href="mailto:alpha7.suraj@gmail.com">Suraj H M</a></span>
+    </div>
+</footer>
+{% endblock %}

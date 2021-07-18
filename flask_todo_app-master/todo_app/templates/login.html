@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %} Login {% endblock %}
+
+{% block body %}
+
+<div class="d-flex justify-content-center align-items-center text-center container row h-50" >
+    <form class="form-group" action="/login" method="POST" style="background-color: rgb(248,249,250); padding: 30px; border-radius: 15px">
+        <div class="form-group">
+            <input class="sm-4 form-control" type="text" name="username" placeholder="username">
+        </div>
+        <input class="sm-4 btn btn-dark" type="submit">
+    </form>
+</div>
+
+{% endblock %}
